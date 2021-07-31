@@ -1,0 +1,27 @@
+.popup-content{
+    width:40%;
+    height:200px;
+    border:1px solid #ccc;
+    z-index:9;
+    background:#fff;
+    position:absolute;
+    top:30px;
+    left:450px;
+}
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 14px;
+}
+.popup-body{
+    margin:10px;
+}
+.popup-footer{
+    margin:0 20px;
+    width:20%;
+    float:right;
+}
+.popup-footer-buttons{
+    display:flex;
+    justify-content: space-between;
+}
